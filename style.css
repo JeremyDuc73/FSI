@@ -1,0 +1,77 @@
+.bgBlack{
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+
+
+.firstPart{
+    background-image: url("img/montagneEte.jpg");
+    height: 100vh;
+}
+.topbar{
+    height: 10vh;
+}
+.btn-outline-light:hover{
+    color: black !important;
+}
+
+
+.headerFSI{
+    height: 90vh;
+}
+.logo{
+    border-radius: 10px;
+}
+.descriptionFSI{
+    border-radius: 10px;
+}
+
+
+
+.presentationPerso{
+    background-image: url("img/montagneHiver.jpg");
+    height: 100vh;
+}
+.containerPresentationPerso{
+    display: inline-block;
+    width: auto !important;
+    border-radius: 10px;
+}
+.h2presentation{
+    text-transform: uppercase;
+}
+.imgPresentation{
+    border-radius: 10px;
+}
+.textePresentation{
+    width: 500px;
+    font-size: 1.3rem;
+}
+
+
+.formations{
+    background-image: url("img/montagneAutomne.jpg");
+    height: 100vh;
+}
+.titreFormations{
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.titreCarte{
+    text-transform: uppercase;
+}
+.boutonFormations{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+.carouselPhotos{
+    background-image: url("img/montagnePrintemps.jpg");
+}
+
+.containerCarousel{
+    border: 4px black solid !important;
+}
