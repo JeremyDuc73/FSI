@@ -1,0 +1,42 @@
+.bgBlack{
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+
+
+.firstPart{
+    background-image: url("img/montagneEte.jpg");
+    height: 100vh;
+}
+.topbar{
+    height: 10vh;
+}
+.btn-outline-light:hover{
+    color: black !important;
+}
+
+
+.headerFSI{
+    height: 90vh;
+}
+.logo{
+    border-radius: 10px;
+}
+.descriptionFSI{
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.secourisme{
+    height: 100vh;
+    background-image: url("img/montagneHiver.jpg");
+}
+
+.left{
+    height: 70vh;
+}
+.right{
+    height: 70vh;
+}
