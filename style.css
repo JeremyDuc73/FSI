@@ -1,23 +1,25 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .bgBlack{
     background-color: rgba(0, 0, 0, .5) !important;
 }
 
-
-
 .firstPart{
-    background-image: url("img/montagneEte.jpg");
-    height: 100vh;
+    background-image: url("img/bgFSI.jpg");
+    background-position: center;
+    background-size: cover;
 }
 .topbar{
-    height: 10vh;
-}
-.btn-outline-light:hover{
-    color: black !important;
+    height: 8vh;
+    background-color: white;
 }
 
 
 .headerFSI{
-    height: 90vh;
+    height: 80vh;
 }
 .logo{
     border-radius: 10px;
@@ -28,10 +30,10 @@
 
 
 
-.presentationPerso{
+/*.presentationPerso{
     background-image: url("img/montagneHiver.jpg");
     height: 100vh;
-}
+}*/
 .containerPresentationPerso{
     display: inline-block;
     width: auto !important;
@@ -48,11 +50,11 @@
     font-size: 1.3rem;
 }
 
-
+/*
 .formations{
     background-image: url("img/montagneAutomne.jpg");
     height: 100vh;
-}
+}*/
 .titreFormations{
     text-transform: uppercase;
     border-radius: 10px;
@@ -67,11 +69,87 @@
     text-transform: uppercase;
 }
 
-
+/*
 .carouselPhotos{
     background-image: url("img/montagnePrintemps.jpg");
-}
+}*/
 
 .containerCarousel{
     border: 4px black solid !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+    perspective: 500px;
+    margin-left: 10px;
+}
+span a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+
+
+}
+span a:before,
+span a:after{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#accueilButton:before,
+#accueilButton:after{
+    content: "ACCUEIL";
+}
+#presentationButton:before,
+#presentationButton:after{
+    content: "PRESENTATION";
+}
+#formationsButton:before,
+#formationsButton:after{
+    content: "FORMATIONS";
+}
+#photosButton:before,
+#photosButton:after{
+    content: "PHOTOS";
+}
+span a:before{
+    color: #fff;
+    background: #000;
+    transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
 }
