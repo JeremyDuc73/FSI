@@ -45,6 +45,12 @@ body{
         width: 50px !important;
 
     }
+
+}
+@media (max-width: 750px){
+    .headerFSI{
+        width: 100% !important;
+    }
 }
 .buttonNavbar:hover{
     background-size: 100% 3px;
@@ -54,7 +60,15 @@ body{
 .bgBlack{
     background-color: rgba(0, 0, 0, .5) !important;
 }
-
+.bi-fire{
+    font-size: 5em;
+}
+.bi-people-fill{
+    font-size: 5em;
+}
+.bi-hospital{
+    font-size: 5em;
+}
 .firstPart{
     background-image: url("img/bgFSI.jpg");
     background-position: center;
@@ -63,10 +77,13 @@ body{
 .topbar{
     background-color: white;
 }
-
+.logo{
+    width: 100%;
+}
 
 .headerFSI{
-    height: 80vh;
+    height: 85vh;
+    width: 50%;
 }
 .descriptionFSI{
     font-size: 20px;
