@@ -1,9 +1,4 @@
-ACCUEIL 
-
--enlever entreprise de 
--echanger 2e fond avec 3e
--les formations -> nos formations
--essayer de faire pivoter les cartes
+ACCUEIL
 -texte carte : formations grand public et entreprise | formation incendie, évacuation et extincteur
 
 page secourisme : 

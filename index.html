@@ -27,76 +27,82 @@
                         <hr>
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="buttonNavbar" aria-current="page" href="#">ACCUEIL</a>
+                                <a class="buttonNavbar" aria-current="page" href="index.html">ACCUEIL</a>
                             </li>
                             <li class="nav-item">
-                                <a class="buttonNavbar" aria-current="page" href="#">PRESENTATION</a>
+                                <a class="buttonNavbar" aria-current="page" href="#presentation">PRESENTATION</a>
                             </li>
                             <li class="nav-item">
-                                <a class="buttonNavbar" aria-current="page" href="#">FORMATIONS</a>
+                                <a class="buttonNavbar" aria-current="page" href="#formations">FORMATIONS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="buttonNavbar" aria-current="page" href="#">PHOTOS</a>
+                                <a class="buttonNavbar" aria-current="page" href="#carousel">PHOTOS</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
-
         <div class="headerFSI container d-flex flex-column justify-content-start align-items-center">
             <img class="logo mt-5 p-4" src="img/logo.png" alt="">
         </div>
     </div>
-    <div class="d-flex justify-content-center">
-        <div>
+    <div class="containerIcone container mt-5 mb-5">
+        <div class="text-center ms-3 me-3 divIcone">
             <i class="bi bi-hospital"></i>
-            <h2>Formation Secourisme</h2>
+            <h3>Formation Secourisme</h3>
         </div>
-        <div>
+        <div class="text-center ms-3 me-3 divIcone">
             <i class="bi bi-fire"></i>
-            <h2>Formation Incendie</h2>
+            <h3>Formation Incendie</h3>
         </div>
-        <div>
+        <div class="text-center ms-3 me-3 divIcone">
             <i class="bi bi-people-fill"></i>
-            <h2>Pour tout public</h2>
+            <h3>Pour tout public</h3>
         </div>
     </div>
-    <div class="presentationPerso d-flex flex-column justify-content-center align-items-center">
-        <div class="containerPresentationPerso container d-flex flex-column justify-content-center align-items-center p-4 bgBlack">
-           <h2 class="h2presentation text-white p-3">Présentation</h2>
-            <img class="imgPresentation" src="img/christophe.jpg">
-            <p class="textePresentation text-white text-center p-3">
-            Je m’appelle Christophe DUPUY.
-            Je suis Officier de Sapeurs Pompiers, Pisteur Secouriste et Sauveteur Aquatique depuis plus de 25 ans.
-            Formateur de secourisme depuis plus de 20 ans, j’ai à cœur de vous faire partager ma solide expérience de professionnel du secours mais aussi de formateur chevronné aux travers des différentes formations que je vous propose.
-            A très vite.
-            </p>
+    <div class="presentationPerso" id="presentation">
+        <div class="container containerPresentation">
+            <div class="containerImgPresentation ">
+                <img class="imgPresentation " src="img/christophe.jpg">
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="h2presentation">Présentation</h2>
+                <p class="textePresentation">
+                    Je m’appelle Christophe DUPUY.
+                    Je suis Officier de Sapeurs Pompiers, Pisteur Secouriste et Sauveteur Aquatique depuis plus de 25 ans.
+                    Formateur de secourisme depuis plus de 20 ans, j’ai à cœur de vous faire partager ma solide expérience de professionnel du secours mais aussi de formateur chevronné aux travers des différentes formations que je vous propose.
+                    A très vite.
+                </p>
+            </div>
         </div>
+    </div>
+    <div class="secourisme" id="formations">
+        <div class="containerSecourisme container">
+            <div class="containerSecourismeTexte d-flex flex-column justify-content-center align-items-start me-4">
+                <h2 class="h2secourisme">Secourisme</h2>
+                <p class="mt-5 mb-5 ">formations grand public et entreprise</p>
+                <a href="secourisme.html" class="btn boutonSecourisme">EN SAVOIR PLUS</a>
+            </div>
+            <div>
+                <img class="imgSecourisme" src="img/mairie2.jpeg">
+            </div>
 
+        </div>
     </div>
-    <div class="formations d-flex flex-column justify-content-around align-items-center">
-        <h2 class="titreFormations p-3">Les formations</h2>
-        <div class="container row p-0 d-flex justify-content-around align-items-center">
-            <div class="carteFormation card col-5">
-                <h3 class="titreCarte card-title text-center pt-3">secourisme</h3>
-                <img src="img/mairie2.jpeg" class="card-img-top p-3">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="secourisme.html" class="boutonFormations btn btn-dark">en savoir plus</a>
-                </div>
+    <div class="incendies">
+        <div class="container containerIncendies">
+            <div>
+                <img class="imgIncendies" src="img/extincteurNeige3.jpeg">
             </div>
-            <div class="carteFormation card col-5">
-                <h3 class="titreCarte card-title text-center pt-3">incendies</h3>
-                <img src="img/extincteurNeige3.jpeg" class="card-img-top p-3">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="incendies.html" class="boutonFormations btn btn-dark">en savoir plus</a>
-                </div>
+            <div class="containerIncendiesTexte d-flex flex-column justify-content-center align-items-start ms-5">
+                <h2 class="h2incendies">Incendies</h2>
+                <p class="mt-5 mb-5 text-white">formation incendie, évacuation et extincteur</p>
+                <a href="incendies.html" class="btn boutonIncendies">EN SAVOIR PLUS</a>
             </div>
         </div>
     </div>
-    <div class="carouselPhotos p-5">
+    <div class="carouselPhotos p-5" id="carousel">
         <div id="carouselExampleIndicators" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -141,13 +147,21 @@
           </div>
     </div>
     <div class="footer">
-        <div class="container d-flex justify-content-between">
-            <div class="meContacter"><h4>METTRE LE NUMERO, ADRESSE MAIL, ETC</h4></div>
-            <div class="mesReseaux"><h4>METTRE LES RESEAUX</h4></div>
+        <div class="container d-flex justify-content-between align-items-center pt-4 pb-4">
+            <div class="meContacter">
+                <h4>Me contacter</h4>
+                <p>06.09.46.92.97</p>
+                <p>fsi73@free.fr</p>
+            </div>
+            <div>
+                <img class="logo" src="img/logosmall.png">
+            </div>
+            <div class="mesReseaux"><h4><a target="_blank" class="btn boutonFacebook" href="https://www.facebook.com/people/Formation-secourisme-et-incendie/100040504283331/">Facebook</a></h4></div>
         </div>
     </div>
 
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script></body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
 </html>
