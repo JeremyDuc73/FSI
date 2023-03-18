@@ -89,7 +89,9 @@ h1{
 }
 
 
-.psc1{
+
+
+.bloc{
     width: 600px;
     background-color: whitesmoke;
     padding: 20px;
@@ -105,46 +107,10 @@ h3{
 h5{
     margin-bottom: 30px;
 }
-
-.partie2{
-    background-color: whitesmoke;
-    width: 600px;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .pse1et2{
     padding: 20px;
 }
 
-.entreprise{
-    background-color: #201F1C;
-}
-
-.fisst{
-    width: 600px;
-    background-color: whitesmoke;
-    padding: 20px;
-}
-.macsst{
-    width: 600px;
-    background-color: whitesmoke;
-    padding: 20px;
-}
-
-.partie2entreprise{
-    background-color: whitesmoke;
-    width: 600px;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.articleCodeDuTravail{
-    padding: 20px;
-}
 @media (max-width: 1400px){
     h1{
         font-size: x-large;
@@ -155,31 +121,18 @@ h5{
         margin-left: auto;
         margin-right: auto;
     }
-    .bnssa{
+    .blocmargin{
         margin-top: 40px;
         width: auto;
     }
-    .partie1entreprise{
+    .bloc{
+        width: auto;
+    }
+    .partie2{
         flex-direction: column;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    .macsst{
-        margin-top: 40px;
-        width: auto;
-    }
-    .psc1{
-        width: auto;
-    }
-    .partie2{
-        width: auto;
-    }
-    .fisst{
-        width: auto;
-    }
-    .partie2entreprise{
-        width: auto;
     }
 }
 

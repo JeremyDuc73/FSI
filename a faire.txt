@@ -1,7 +1,4 @@
-ACCUEIL
--texte carte : formations grand public et entreprise | formation incendie, évacuation et extincteur
-
-page secourisme : 
+page secourisme :
 -rajouter titres grand public | entreprise
 GAUCHE
 -1er bloc psc1

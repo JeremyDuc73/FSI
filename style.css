@@ -1,5 +1,6 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    letter-spacing: 1px;
 }
 
 .navbarWidth{
@@ -54,14 +55,16 @@ body{
 }
 @media (max-width: 1200px) {
     .headerFSI{
-        height: 50vh !important;
+        height: 60vh !important;
     }
 }
 .buttonNavbar:hover{
     background-size: 100% 3px;
     color: #fcaf3b;
 }
-
+h3{
+    font-size: x-large;
+}
 .bgBlack{
     background-color: rgba(0, 0, 0, .5) !important;
 }
@@ -80,6 +83,7 @@ body{
     background-image: url("img/bgFSI.jpg");
     background-position: center;
     background-size: cover;
+    margin-top: 9vh;
 }
 .topbar{
     background-color: white;
@@ -272,6 +276,14 @@ body{
 
 .footer{
     background-color: whitesmoke;
+}
+@media(max-width: 500px){
+    .footerdiv{
+        flex-direction: column;
+    }
+    .mesReseaux{
+        margin-top: 10px;
+    }
 }
 
 .boutonFacebook{
